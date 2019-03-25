@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          url: https://https://github.com/Seppeb/ws-config.git
